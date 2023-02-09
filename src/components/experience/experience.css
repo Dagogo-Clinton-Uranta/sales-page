@@ -1,0 +1,171 @@
+#experience{
+    background: var(--color-primary);
+    
+   
+    
+   
+}
+
+.lineArmy {
+    box-sizing: border-box;
+
+position: absolute;
+
+
+border-top: 1px dashed rgba(255, 255, 255, 0.3);
+background-color: none;
+border-left: none;
+border-right: none;
+border-bottom:none;
+transform: rotate(12.47deg);
+}
+
+
+
+
+.experience__container {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:2rem;
+    
+}
+
+
+.product-place {
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap:5rem;
+    margin-bottom: -20%; /*bad practice*/
+   
+}
+
+.product-place img {
+    height:420px;
+    width: 420px;
+}
+
+
+.product-place ul {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+
+
+.product-place li {
+    color:var(--color-white);
+    font-size:22px;
+}
+
+.experience__container  > div {
+  background: var(--color-bg-variant);
+  padding:2.4rem 5rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  transition:var(--transition);
+
+}
+
+
+.experience__container  > div:hover {
+    background: transparent;
+    border-color:var(--color-primary-variant);
+    border-color: var(--color-primary-variant);
+    cursor:default;
+}
+
+.experience__container > div h3 {
+  text-align:center;
+  margin-bottom: 2rem;
+  color:var(--color-primary);
+}
+
+
+.experience__content {
+   display:grid;
+   grid-template-columns: 1fr 1fr;
+   row-gap:2rem;
+}
+
+.experience__details {
+    display:flex;
+    gap:1rem;
+
+}
+
+.experience__details-icon {
+    margin-top: 6px;
+    color:var(--color-primary);
+
+}
+
+
+.custom-shape-divider-bottom-1675954621 {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1675954621 svg {
+    position: relative;
+    display: block;
+    width: calc(150% + 1.3px);
+    height: 317px;
+}
+
+.custom-shape-divider-bottom-1675954621 .shape-fill {
+    fill: #320044;
+}
+
+/*============== MEDIA QUERIES (MEDIUM DEVICES) ======================= */
+
+@media screen and (max-width:1024px) {
+    .experience__container {
+        grid-template-columns: 1fr;
+
+    }
+
+    .experience__container > div {
+        width:80%;
+        padding:2rem;
+        margin:0 auto;
+    }
+
+    .experience__content {
+        padding: 1rem;
+    }
+}
+
+
+/*============== MEDIA QUERIES (SMALL DEVICES) ======================= */
+
+@media screen and (max-width:600px) {
+    .experience__container {
+        
+        gap: 1rem;
+
+    }
+
+    .experience__container > div {
+        width:100%;
+        padding:2rem 1rem;
+
+    }
+
+
+
+
+}
+
+ 
+
+
+
+
