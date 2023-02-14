@@ -8,7 +8,7 @@ const Experience = () => {
     <section id='experience'>
    
    
-   <div className="container ">
+   <div className="container  ">
    
       
 

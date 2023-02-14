@@ -143,7 +143,21 @@ img {
    object-fit:cover;
 }
 
+.mobileDisp {
+    display: none ;
+   
+}
+
+
+
 /* ======================== MEDIA QUERIES (MEDIUM DEVICES) ======================*/
+
+@media screen and (min-width:1025px) {
+  
+   
+}
+
+
 
 @media screen and (max-width:1024px) {
    .container {
@@ -154,6 +168,16 @@ img {
     margin-top:6rem;
    }
 
+
+   .mobileDisp {
+    display: inline-block;
+    opacity: 1;
+}
+
+
+.desktopDisp {
+    display: none;
+}
 
 }
 
@@ -169,7 +193,15 @@ img {
     .section > h2 {
      margin-bottom:2rem;
     }
+
+
+    .mobileDisp {
+        display: inline-block;
+    }
  
+    .desktopDisp {
+     display: none;
+    }
  
  }
 

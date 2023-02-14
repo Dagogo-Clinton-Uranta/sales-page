@@ -8,7 +8,7 @@ header {
     /*text-align: center;*/
     height:100%;
     position:relative;
-    margin-bottom: 0px;
+  
 }
 
 .lightText {
@@ -73,9 +73,9 @@ header {
 
 .price__tag {
     position:absolute;
-    right:-20.7rem;
+    right:-26%;
     bottom:/*42rem*/50%;
-   
+    
     font-weight:500;
     font-size:1.1rem;
 }
@@ -84,6 +84,7 @@ header {
 .wave1 {
     position: relative;
     bottom: 247px; /*just a makeshift to allow this the curve meld into the next section*/
+    
     left: 0;
     width: 100%;
     overflow: hidden;
@@ -96,6 +97,8 @@ header {
      background-position: 0 0, 50px 50px;
      background-size: 10px 10px;
      z-index: -1;
+
+    
 }
 
 .wave1 svg {
@@ -119,6 +122,12 @@ header {
 
 @media screen and (max-width:1200px) {
     
+    header {
+        height:60vh;
+        
+     }
+
+
       
  .price__tag {
     display:none;
@@ -154,7 +163,7 @@ header {
  @media screen and (max-width:600px) {
      
     header {
-        height:120vh;
+        height:86vh;
         /*margin-bottom: 11rem;*/
        
         

@@ -18,7 +18,8 @@ const Header = () => {
       <img src={ME} alt="Amber profile photo" />
      </div>*/}
    
-    <div  className="price__tag"><img style={{height:"200px"}} src={salesTag} alt="50% off" /></div>
+    {/* I am removing pricetag for now so i can center everything
+    <div  className="price__tag"><img style={{height:"200px"}} src={salesTag} alt="50% off" /></div>*/}
     
     </div>
 
