@@ -136,6 +136,11 @@ a {
     color:var(--color-bg);
 }
 
+.btn-primary-variant {
+    background:var(--color-primary-variant);
+    color:var(--color-bg);
+}
+
 img {
     /*every image on this website is gonna be display block, i.e gonna occupy it's own line */
     display:block; 
@@ -149,17 +154,21 @@ img {
 }
 
 
+/* ======================== MEDIA QUERIES (KINDA LARGE DEVICES) ======================*/
 
-/* ======================== MEDIA QUERIES (MEDIUM DEVICES) ======================*/
-
-@media screen and (min-width:1025px) {
+@media screen and (max-width:1025px) {
   
    
 }
 
 
+/* ======================== MEDIA QUERIES (MEDIUM DEVICES) ======================*/
 
-@media screen and (max-width:1024px) {
+
+
+
+
+@media screen and (max-width:900px) {
    .container {
      width: var(--container-width-md);
    }

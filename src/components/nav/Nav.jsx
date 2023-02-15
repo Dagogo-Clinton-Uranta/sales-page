@@ -23,18 +23,16 @@ const Nav = () => {
       <img src={testLogo} style={{width:"200px",height:"80px"}} alt="company logo"/>
 
 <div className="navLinkContainer desktopDisp">
-
-
-
-  
 <a href="#portfolio" onClick={()=>{setActiveNav('#portfolio')}} className={activeNav === '#portfolio'? 'active':''}>Home</a>
 <a href="#services" onClick={()=>{setActiveNav('#services')}} className={activeNav === '#services'? 'active':''}>About us</a>
 <a href="#contact" onClick={()=>{setActiveNav('#contact')}} className={activeNav === '#contact'? 'active':''}>How It Works</a>
 </div>
 
-<button className='btn btn-primary desktopDisp'> Make Purchase <AiOutlineArrowRight/> </button>
+<div className='buttonPlace'>
+<button className='btn btn-primary desktopDisp'>Purchase </button>
+</div>
 
-{isMobile && <HamburgerMenu className="mobileDisp"/>}
+<HamburgerMenu className="mobileDisp"/>
 
     </nav>
   )

@@ -59,10 +59,28 @@ nav button {
     text-align:center;
 }
 
+.buttonPlace {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width:1500px) {
+     
+    nav {
+      
+        
+        width:90% !important; /*just for the navbar*/
+      }
+
+}
+
+
+
 
 /* ======================== MEDIA QUERIES (MEDIUM DEVICES) ======================*/
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1300px) {
     nav {
       
       position: fixed;
@@ -72,7 +90,7 @@ nav button {
     }
  
   
- 
+
  
  }
  

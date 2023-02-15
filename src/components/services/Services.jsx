@@ -12,7 +12,7 @@ const Services = () => {
     <div className="container services__container ">
 
     
-    <div className='descHeader'><strong>HIGH TECH DEVICE</strong> SAID TO BE <span className="highlight">SAVING</span><br/> MARRIAGES AND RELATIONSHIPS</div> 
+    <div className='descHeader'><strong>HIGH TECH DEVICE</strong> SAID TO BE <span className="highlight">SAVING</span> MARRIAGES AND RELATIONSHIPS</div> 
 
 
     <p>Snoring is a real home-wrecker for many Americans. 
@@ -34,6 +34,22 @@ const Services = () => {
        </strong>
        </p>
 
+
+
+
+       <div className='descHeader'> SIMPLE DEVICE&nbsp;<strong className="highlight">STOPS SNORING FOREVER</strong></div> 
+
+
+    <p>
+    Thankfully, a new breakthrough device can put an end to snoring forever!
+     It uses intelligent technology to monitor for any indication of snoring – 
+     and if it detects any, it emits sensory feedback which stops the snoring dead in its tracks!
+You simply put it on like a wristwatch before going to bed. It’s comfortable to
+ wear and non-binding, so it doesn’t interfere with your sleeping positions.
+  It’s so easy to use, and it might even save your marriage!
+   
+   </p>
+
        <img src={cuddles} alt="couple cuddling" className='cuddleImg' />
         
 
@@ -50,7 +66,7 @@ const Services = () => {
    </p>
 
 
-   <img src={wristDisplay} alt="sleep connection on hand" className='wristImg' />
+   {/*<img src={wristDisplay} alt="sleep connection on hand" className='wristImg' />*/}
 
   </div>     
     

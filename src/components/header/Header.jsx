@@ -4,22 +4,22 @@ import CTA from './CTA'
 
 import salesTag from '../../assets/salestag.png'
 import HeaderSocials from './HeaderSocials'
+import watch from '../../sleep-assests/watch.png'
 
 const Header = () => {
   return (
     <header>
     <div className="container header__container">
-      <h1  style={{marginBottom:"-15px"}} className='lightText'>SLEEP CONNECTION</h1>
+     <div className="container__position">
+      <h1   className='lightText'>SLEEP CONNECTION</h1>
       <h1  ><strong><span className='highlight'>ANTI-SNORE</span> WRISTBAND</strong></h1>
       
       <h5 style={{marginTop:"15px"}} >A Good Life Starts from a Healthy Sleeping Pattern, be it for You or Your Family</h5>
-     
-     {/*<div className="me">
-      <img src={ME} alt="Amber profile photo" />
-     </div>*/}
+    </div>
    
-    {/* I am removing pricetag for now so i can center everything
-    <div  className="price__tag"><img style={{height:"200px"}} src={salesTag} alt="50% off" /></div>*/}
+   
+    
+    <div  className="price__tag"><img style={{height:"400px"}} src={watch} alt="50% off" /></div>
     
     </div>
 

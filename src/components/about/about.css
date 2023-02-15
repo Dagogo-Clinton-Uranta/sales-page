@@ -8,7 +8,9 @@
     display:grid;
     grid-template-columns: 100%; /*35% for left, 50% for right*/
     gap:15%;
-
+    position: relative;
+    margin: 0 auto;
+    width: 90%;
 }
 
 
@@ -39,7 +41,8 @@
 
 .about__icon {
     margin:0 auto;
-    width:45px;
+    width:40px;
+    text-align: center;
     font-size:1.4rem;
     margin-bottom: 1rem;
     border-radius: 50%;
@@ -68,14 +71,32 @@
 }
 
 
+
+
+
+
+/* ======================== MEDIA QUERIES FOR ABOUT US (MEDIUM DEVICES) ======================*/
+
+@media screen and (max-width:1300px) {
+
+
+.about__cards {
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap: 1.5rem;
+   
+}
+
+}
+
 /* ======================== MEDIA QUERIES FOR ABOUT US (MEDIUM DEVICES) ======================*/
 
 @media screen and (max-width:1024px) {
    
-    .about__container {
+   /* .about__container {
        grid-template-columns:  1fr;
        gap: 0;
-    }
+    }*/
 
      .about__me {
         width:50%;

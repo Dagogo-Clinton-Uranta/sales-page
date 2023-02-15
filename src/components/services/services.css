@@ -5,14 +5,14 @@
 
 
 .services__container {
-   
+   font-size: 1.3rem;
 }
 
 .descHeader {
-    font-size: 25px;
+    font-size: 2.2rem;
     margin-top: 30px;
     margin-bottom: 30px;
-    width: 60%;
+    width: 100%;
 }
 
 .service {
@@ -87,6 +87,11 @@
     height: auto;
    }
 
+
+    
+.cuddleImg {
+    height: 40vh;
+   }
 }
 
 
@@ -97,6 +102,9 @@
     gap: 1.5rem;
 }
 
+.cuddleImg {
+    height: 40vh;
+   }
 
 }
  

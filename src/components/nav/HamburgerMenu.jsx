@@ -25,9 +25,10 @@ export default function HamburgerMenu() {
   const handleClose = () => {
     setAnchorEl(null);
   };
+
   return (
-    <React.Fragment>
-      <Box sx={{ display: 'flex', alignItems: 'center', textAlign: 'center' }}>
+    <React.Fragment >
+      <Box sx={{ display: 'flex', alignItems: 'center', textAlign: 'center', display:{xl:"none", lg:"none",md:"none",sm:"inline",xs:"inline"}}}>
       
         <Tooltip title="Menu">
           <IconButton
