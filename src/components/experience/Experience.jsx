@@ -67,7 +67,7 @@ const Experience = () => {
           <article className='about__card'>
           <div className='about__icon'><FaBed/></div>
           
-           <small>This gentle impulse is enough to mae you shift positions - which stops the snoring</small>
+           <small>This gentle impulse is enough to make you shift positions - which stops the snoring</small>
           </article>
         </div>
 
