@@ -301,6 +301,11 @@ header {
     .title{
         font-size: 1.4rem;
       }
+
+      .titleJr {
+       
+        width:95%;
+    }
   
   }
 

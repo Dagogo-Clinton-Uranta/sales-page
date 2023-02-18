@@ -15,7 +15,7 @@ const Header = () => {
       <div   className='lightText title'>SLEEP CONNECTION</div>
       <div className='title'><strong><span className='highlight '>ANTI-SNORE</span> WRISTBAND</strong></div>
       
-      <div className='titleJr' >A Good Life Starts from a Healthy Sleeping Pattern, be it for You or Your Family</div>
+      <div className='titleJr' >A Good Life Starts from a Healthy Sleeping Pattern, be it for You or Your Family.</div>
     </div>
    
     <div  className="price__tag"><img  src={watch} alt="anti-snore band" /></div>

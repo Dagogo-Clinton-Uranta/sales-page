@@ -18,6 +18,8 @@ footer p {
     color:var(--color-white);
     margin:0 auto 3rem;
     font-size: 0.8rem;
+    padding-left: 1rem;
+    padding-right: 1.5rem;
 }
 
 .footer__logo {
