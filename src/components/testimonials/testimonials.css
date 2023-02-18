@@ -64,6 +64,7 @@
 
     .client__review {
         width:var(--container-width-sm);
+        font-size: 0.85rem;
     }   
 
     .client__avatar {

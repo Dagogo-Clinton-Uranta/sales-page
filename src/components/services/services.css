@@ -104,6 +104,8 @@
 
 .cuddleImg {
    object-fit:cover;
+   height:10rem;
+   object-position: right top;
    }
 
 }
