@@ -40,7 +40,7 @@ const Testimonials = () => {
      
      <h5 className="client__name">Alison B.</h5>
      <small className="client__review">
-     The electrical feedback from the Sleep Connection Anti-Snore Wristband does not produce a strong enough signal to wake the snorer up. Instead, it sends a gentle electrical signal to the wearer’s wrist to stop the snoring.
+     Believe me, my husband has tried everything, but nothing seemed to work until he tried the sleep connection wristband. It stopped his snoring completely! It was like a miracle, I feel like I have my husband back!
       </small>
 
     </SwiperSlide>
@@ -54,7 +54,7 @@ const Testimonials = () => {
 
      <h5 className="client__name">Thomas R.</h5>
      <small className="client__review">
-     The electrical feedback from the Sleep Connection Anti-Snore Wristband does not produce a strong enough signal to wake the snorer up. Instead, it sends a gentle electrical signal to the wearer’s wrist to stop the snoring.
+     My own snoring would wake me up almost every night. I tried medicines and nose strips but nothing worked. I then tried sleep connection after a friend's recommendation. That very night I slept through the entire night! My entire life has improved as a result and my wife is really grateful too!
       </small>
 
     </SwiperSlide>
@@ -80,7 +80,7 @@ const Testimonials = () => {
     
      <h5 className="client__name">Patricia P.</h5>
      <small className="client__review">
-     The electrical feedback from the Sleep Connection Anti-Snore Wristband does not produce a strong enough signal to wake the snorer up. Instead, it sends a gentle electrical signal to the wearer’s wrist to stop the snoring.
+    My husband's snoring kept getting worse over the years until it finally became unbearable. The only time I got any sleep was when he slept on the couch. With the Sleep Connection device, all of that changed! His snoring has completely dissapeared!
       </small>
 
     </SwiperSlide>
