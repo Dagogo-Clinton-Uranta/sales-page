@@ -1,5 +1,5 @@
 header {
-    height:50vh;
+    /*height:50vh;*/
     padding-top: 2rem;
     overflow:visible;
 }
@@ -10,28 +10,32 @@ header {
     position:relative;
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    
-  
+    align-items: flex-start;
+    flex-direction: column; 
 }
 
 .container__position{
-   
     position:relative;
     display: flex;
     justify-content: center;
-    align-items: left;
+    align-items: flex-start;
     flex-direction: column;
-    margin-top: -15%;
-    margin-left: -50%;
-
+    gap:0rem;
+   /* margin-top: -15%;
+    margin-left: -50%;*/
 }
 
-.container__position h5{
-    font-size: 1.08rem;
-    width: 90%;
+.title{
+  font-size: 1.7rem;
 }
+
+.titleJr {
+    margin-top: 4%;
+    width:90%;
+}
+
+
+
 
 
 .lightText {
@@ -92,24 +96,22 @@ header {
     padding:1rem 1.5rem 1.5rem 1.5rem;
 }
 
-/* ================ SCROLL DOWN ===============*/
 
 .price__tag {
     position:absolute;
-    right:-2%;
-    bottom:/*42rem*/-30%;
-    
-    font-weight:500;
-    font-size:1.1rem;
+    right:-6%;
+    bottom:/*42rem*/-190%;
+}
+
+.price__tag img {
+    height:23rem;
 }
 
 
 .wave1 {
     position: relative;
-    bottom: 247px; /*just a makeshift to allow this the curve meld into the next section*/
+    bottom: -1px; /*just a makeshift to allow this the curve meld into the next section*/
     
-    
-
 
     left: 0;
     width: 100%;
@@ -131,7 +133,7 @@ header {
     position: relative;
     display: block;
     width: calc(281% + 1.3px);
-    height: 295px;
+    height: 225px;
 }
 
 .wave1 .shape-fill {
@@ -145,14 +147,44 @@ header {
 
 
 @media screen and (max-width:1500px) {
-.price__tag {
+/*.price__tag {
     position:absolute;
     right:-10%;
-    bottom:/*42rem*/-30%;
+    bottom:-30%; 
+   }*/
+
+
+
+
+
+.container__position{
+   
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left !important;
+   
+   
+}
+
+.wave1 svg {
+    height: 90px;
+}
+
+   .header__container {
+    /*text-align: center;*/
+   align-items:center ;
+   justify-content: center;
+    flex-direction: row;
     
-    /*font-weight:500;
-    font-size:1.1rem;*/
+}
+
+
+  .price__tag {
+    position:relative;
+    right:-2%;
+    bottom:/*42rem*/0%;
    }
+   
  }
 
  
@@ -168,25 +200,33 @@ header {
 @media screen and (max-width:1300px) {
     
     header {
-        height:70vh;
+      /* height:70vh;*/
         
      }
 
-     .container__position h5{
-        
-        width: 100%;
+     .header__container {
+        /*text-align: center;*/
+        justify-content: flex-end;
+        align-items: flex-end; 
     }
 
+   
       
- .price__tag {
-    display:none;
- }
+     .price__tag {
+        position:relative;
+        right:-5%;
+        bottom:-5rem;
+       }
+
+ .price__tag img {
+    height:18rem;
+   
+}
 
 
  .container__position{
-    align-items: center;
-    margin-top: -15%;
-    margin-left: 0%;
+    align-items: flex-start;
+   
 }
 
 }
@@ -201,19 +241,34 @@ header {
 @media screen and (max-width:1044px) {
    
  header {
-    height:70vh;
+    /*height:70vh;*/
  }
 
+ .header__container {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
 
- .container__position{ 
-    margin-top: -10%;
 }
 
 
 
+ .container__position{ 
+    margin-top: 14%;
+    align-items: center;
+}
+
+.price__tag {
+    position:relative;
+   }
+
  .price__tag {
-    display:none;
+    /*display:none;*/
  }
+
+ .wave1 svg {
+    height: 150px;
+}
  }
  
  
@@ -223,7 +278,7 @@ header {
  @media screen and (max-width:600px) {
      
     header {
-        height:86vh;
+       /*height:86vh;*/
         /*margin-bottom: 11rem;*/
        
         
@@ -235,12 +290,12 @@ header {
 
 
      .price__tag {
-        display:none;
+        /*display:none;*/
      }
 
      .container__position{ 
-        margin-top: -10%;
-        align-items: left;
+        margin-top: 13%;
+        align-items: center;
     }
 
     

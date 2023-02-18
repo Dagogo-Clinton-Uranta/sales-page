@@ -50,12 +50,12 @@
     background-color: #FFFFFF;
 }
 
-.about__card h5 {
+/*.about__card h5 {
     font-size: 0.95rem;
-}
+}*/
 
 .about__card small {
-    font-size:1.5rem;
+    
     color:var(--color-light);
 }
 
@@ -155,6 +155,11 @@
         .about__cards {
             grid-template-columns: 100%;
             gap:1rem;
+        }
+
+        .about__card {
+            width: 80%;
+            margin: 0 auto;
         }
 
 

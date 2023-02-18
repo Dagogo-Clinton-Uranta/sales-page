@@ -12,7 +12,7 @@ const Services = () => {
     <div className="container services__container ">
 
     
-    <div className='descHeader'><strong>HIGH TECH DEVICE</strong> SAID TO BE <span className="highlight">SAVING</span> MARRIAGES AND RELATIONSHIPS</div> 
+    <div className='descHeader'><span>HIGH TECH DEVICE</span> SAID TO BE <strong className="highlight">SAVING</strong> MARRIAGES AND RELATIONSHIPS</div> 
 
 
     <p>Snoring is a real home-wrecker for many Americans. 
@@ -20,6 +20,7 @@ const Services = () => {
       The loud and awful noise can positively RUIN your partner’s sleep -
        leading to bad moods, arguments, even resentment! The sad truth 
        is that snoring can ruin even the happiest of relationships.
+       <br/><br/>
         Recent reports indicate that up to 25% of Americans prefer to sleep
          in a different room than their partner, just to avoid being exposed to snoring. 
          In fact, snoring can cause such high degrees of marital strain, it could even
@@ -53,7 +54,7 @@ You simply put it on like a wristwatch before going to bed. It’s comfortable t
        <img src={cuddles} alt="couple cuddling" className='cuddleImg' />
         
 
-       <div className='descHeader'><span className="highlight">SLEEP CONNECTION</span> STOPS YOUR SNORING<br/> WITHOUT WAKING YOU UP!</div> 
+       <div className='descHeader'><strong className="highlight">SLEEP CONNECTION</strong> STOPS YOUR SNORING WITHOUT WAKING YOU UP!</div> 
 
 
     <p>

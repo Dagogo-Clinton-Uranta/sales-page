@@ -20,7 +20,7 @@ const Nav = () => {
     <nav className='container navContainer'>
       
  
-      <img src={testLogo} style={{width:"200px",height:"80px"}} alt="company logo"/>
+      <img src={testLogo} alt="company logo"/>
 
 <div className="navLinkContainer desktopDisp">
 <a href="#portfolio" onClick={()=>{setActiveNav('#portfolio')}} className={activeNav === '#portfolio'? 'active':''}>Home</a>

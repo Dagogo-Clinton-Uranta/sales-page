@@ -1,19 +1,19 @@
 #services {
     padding:10%;
-    padding-bottom: 1%;
+    padding-bottom: 6%;
 }
 
 
-.services__container {
+/*.services__container {
    font-size: 1.3rem;
-}
+}*/
 
-.descHeader {
+/*.descHeader {
     font-size: 2.2rem;
     margin-top: 30px;
     margin-bottom: 30px;
     width: 100%;
-}
+}*/
 
 .service {
     background:var(--color-bg-variant);
@@ -90,7 +90,7 @@
 
     
 .cuddleImg {
-    height: 40vh;
+    object-fit:cover;
    }
 }
 
@@ -103,7 +103,7 @@
 }
 
 .cuddleImg {
-    height: 40vh;
+   object-fit:cover;
    }
 
 }

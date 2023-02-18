@@ -33,7 +33,7 @@ const Experience = () => {
 
 
 
- <img src={watch} alt="sleep connection band"/>
+ {/*<img src={watch} alt="sleep connection band"/>*/}
 </div>
 
 

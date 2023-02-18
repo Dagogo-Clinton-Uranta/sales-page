@@ -18,12 +18,17 @@ nav {
 
     display:flex;
     justify-content: space-between;
-    gap:0.8rem; /*the gap for display flex is on the same level as display flex*/
+    gap:0.8rem; 
+    align-items: center;
     /*border-radius: 3rem;*/
    /* backdrop-filter:blur(15px);*/ 
     
 }
 
+.navContainer img {
+    width:200px;
+    height:80px;
+}
 
 
 .navLinkContainer{
@@ -103,6 +108,11 @@ nav button {
        width: var(--container-width-sm);
      }
   
+    
+     .navContainer img {
+        width:100px;
+        height:40px;
+    }
     
   
   }

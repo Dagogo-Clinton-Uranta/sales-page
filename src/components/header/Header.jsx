@@ -9,17 +9,16 @@ import watch from '../../sleep-assests/watch.png'
 const Header = () => {
   return (
     <header>
-    <div className="container header__container">
+    <div
+     className="container header__container">
      <div className="container__position">
-      <h1   className='lightText'>SLEEP CONNECTION</h1>
-      <h1  ><strong><span className='highlight'>ANTI-SNORE</span> WRISTBAND</strong></h1>
+      <div   className='lightText title'>SLEEP CONNECTION</div>
+      <div className='title'><strong><span className='highlight '>ANTI-SNORE</span> WRISTBAND</strong></div>
       
-      <h5 style={{marginTop:"15px"}} >A Good Life Starts from a Healthy Sleeping Pattern, be it for You or Your Family</h5>
+      <div className='titleJr' >A Good Life Starts from a Healthy Sleeping Pattern, be it for You or Your Family</div>
     </div>
    
-   
-    
-    <div  className="price__tag"><img style={{height:"400px"}} src={watch} alt="50% off" /></div>
+    <div  className="price__tag"><img  src={watch} alt="anti-snore band" /></div>
     
     </div>
 

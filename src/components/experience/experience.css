@@ -161,7 +161,7 @@ z-index:-5;
         justify-content: center;
         align-items: center;
         gap:1rem;
-        margin-top: -8%; /*bad practice*/
+        margin-top: -3%; /*bad practice*/
         margin-left: 0%;
     }
 
@@ -194,7 +194,7 @@ z-index:-5;
     justify-content: center;
     align-items: center;
     gap:1rem;
-    margin-top: -10%; /*bad practice*/
+    margin-top: -6%; /*bad practice*/
    
 }
 
@@ -204,6 +204,8 @@ z-index:-5;
     text-align: left;
     width: 85%;
     gap:0.4rem;
+
+    font-size:1.3rem;
   }
 
 
@@ -216,7 +218,9 @@ z-index:-5;
         width: 60%;
         display: inline;
     }
-    
+
+
+  
 }
 
 
@@ -242,17 +246,22 @@ z-index:-5;
         justify-content: center;
         align-items: center;
         gap:1rem;
-        margin-top: -20%; /*bad practice*/
+        margin-top: -10%; /*bad practice*/
        
     }
     
 
     .product-place li{
-      display: flex;
-      align-items: center;
-      text-align: left;
+        font-size:1rem;
       width: 85%;
+      
     }
+
+    .product-place ul {
+        
+        gap: 20px;
+      }
+    
 
 
     .bulletpoint-barrier{

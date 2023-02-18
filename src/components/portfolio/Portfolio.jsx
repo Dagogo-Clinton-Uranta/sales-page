@@ -11,9 +11,9 @@ const Portfolio = () => {
 
 <div className="portfolio__container">
 
-<div className="portfolio__item">
+   {/*<div className="portfolio__item">
     <img src={leftBg} className="portfolio-item"/>
-    </div>
+    </div>*/}
   
 
   <div className="portfolio__item">
@@ -23,16 +23,16 @@ const Portfolio = () => {
     </p>
 
     <div>
-       <a href="#" className="btn btn-primary">Shop Now</a>
+       <a href="#" className="btn btn-primary-variant">Shop Now</a>
        </div>
 
     </div>
 
 
 
-    <div className="portfolio__item">
+    {/*<div className="portfolio__item">
     <img src={rightBg} className="portfolio-item"/>
-    </div>
+  </div>*/}
    
    
     
